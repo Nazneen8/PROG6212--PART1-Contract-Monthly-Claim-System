@@ -1,0 +1,32 @@
+﻿<Window x:Class="Contract_Monthly_Claim_System.Programmr_Coordinator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Contract_Monthly_Claim_System"
+        mc:Ignorable="d"
+        Title="Programme Coordinator" Height="450" Width="800">
+    <Grid>
+        
+        <Button x:Name="LoginBtn" Content="LOGIN" HorizontalAlignment="Left" Margin="337,346,0,0" VerticalAlignment="Top" Width="120" Height="35"/>
+        
+        <Label  Content="Name:" HorizontalAlignment="Left" Margin="119,212,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="PCName" HorizontalAlignment="Left" Margin="220,204,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="314" Height="51"/>
+        
+        <Label Content="Surname:" HorizontalAlignment="Left" Margin="119,274,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PCSurname" HorizontalAlignment="Left" Margin="220,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="314" Height="51" />
+
+        <Label Content="ID:" HorizontalAlignment="Left" Margin="120,154,0,0" VerticalAlignment="Top" Height="39" Width="159"/>
+        <TextBox x:Name="PCID" HorizontalAlignment="Left" Margin="220,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="314" Height="51" />
+
+        <StackPanel>
+            <ComboBox x:Name="PC_AC" Margin="220, 110, 0, 400" Height="30" HorizontalAlignment="Left" Width="250">
+                <ComboBoxItem Content="Programme Co-ordinator" />
+                <ComboBoxItem Content="Academic Manager" />
+            </ComboBox>
+        </StackPanel>
+        <Label Content=" Login" HorizontalAlignment="Left" Margin="356,44,0,0" VerticalAlignment="Top" FontSize="24" />
+
+
+    </Grid>
+</Window>
