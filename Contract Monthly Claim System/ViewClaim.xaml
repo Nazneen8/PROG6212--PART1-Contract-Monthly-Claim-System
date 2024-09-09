@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="ViewClaim" Height="450" Width="800">
     <Grid>
-        HI
+         <Label FontSize="20" IsEnabled="False">View Claim</Label>
+ <StackPanel>
+
+     <Button x:Name="CheckPB1" Height="20" Width="20" Margin="20,90" VerticalAlignment="Top" HorizontalAlignment="Right" />
+     <ProgressBar x:Name="PB1" Height="25" Width="200" Margin="60,-110" HorizontalAlignment="Right" VerticalAlignment="Top" />
+
+     <Button x:Name="CheckPB2" Height="20" Width="20" Margin="20,-60, 20,25" VerticalAlignment="Top" HorizontalAlignment="Right" />
+     <ProgressBar x:Name="PB2" Height="25" Width="200" Margin="60, -60" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+
+     <Button x:Name="CheckPB3" Height="20" Width="20" Margin="20,-10" VerticalAlignment="Top" HorizontalAlignment="Right" />
+     <ProgressBar x:Name="PB3" Height="25" Width="200" Margin="60, -90" HorizontalAlignment="Right"/>
+
+ </StackPanel>
+ <StackPanel>
+     <Label Content="ID 001: Nazneen Van der Fort                                      ... Hours worked..." Width="378" Margin="10,90,-20,120" HorizontalAlignment="Left" FontSize="14"/>
+     <Label Content="ID 002: Dimercia Kulumba                                        ... Hours worked,Ho" Width="378" Margin="10,-100,-20,120" HorizontalAlignment="Left" FontSize="14" />
+     <Label Content="ID 003: John Doe                                         ... Hours worked, Hourly Pay" Width="378" Margin="10,-100,-20,120" HorizontalAlignment="Left" FontSize="14" />
+ </StackPanel>
     </Grid>
 </Window>
