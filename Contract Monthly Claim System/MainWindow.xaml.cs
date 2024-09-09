@@ -20,7 +20,7 @@ namespace Contract_Monthly_Claim_System
         {
             InitializeComponent();
         }
-
+//CREATED BUTTONS THAT LINKS WINDOWS TO MAIN WINDOW
         private void PCBtn_Click(object sender, RoutedEventArgs e)
         {
            Programmr_Coordinator PC = new Programmr_Coordinator();
@@ -28,7 +28,7 @@ namespace Contract_Monthly_Claim_System
             PC.Show();
 
         }
-
+//CREATED BUTTONS THAT LINKS WINDOWS TO MAIN WINDOW
         private void LecturerBtn_Click(object sender, RoutedEventArgs e)
         {
             Lecturer lecturer = new Lecturer();
@@ -36,7 +36,7 @@ namespace Contract_Monthly_Claim_System
             lecturer.Show();
 
         }
-
+//CREATED BUTTONS THAT LINKS WINDOWS TO MAIN WINDOW
         private void AMBtn_Click(object sender, RoutedEventArgs e)
         {
             Programmr_Coordinator AM = new Programmr_Coordinator();
